@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/163438db-e1c2-4a74-b9d5-ccfe82165088/deploy-status)](https://app.netlify.com/sites/golden-fox-602408/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
