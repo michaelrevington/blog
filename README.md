@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/163438db-e1c2-4a74-b9d5-ccfe82165088/deploy-status)](https://app.netlify.com/sites/golden-fox-602408/deploys)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=michaelrevington_blog&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=michaelrevington_blog)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=michaelrevington_blog)
