@@ -1,13 +1,5 @@
 import { useCallback, useState } from "react";
-import {
-  Collapse,
-  Nav,
-  NavItem,
-  NavLink,
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-} from "reactstrap";
+import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler } from "reactstrap";
 import "../../styles/navbar.css";
 
 const NavbarComponent = () => {
