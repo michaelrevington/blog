@@ -1,5 +1,13 @@
 import { useCallback, useState } from "react";
-import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler } from "reactstrap";
+import {
+  Collapse,
+  Nav,
+  NavItem,
+  NavLink,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
+} from "reactstrap";
 import "../../styles/navbar.css";
 
 const NavbarComponent = () => {
@@ -17,7 +25,11 @@ const NavbarComponent = () => {
       </NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
-        <Nav className="me-auto" navbar></Nav>
+        <Nav className="me-auto" navbar>
+          <NavItem>
+            <NavLink href="home">Home</NavLink>
+          </NavItem>
+        </Nav>
       </Collapse>
       <hr className="vl mx-2" />
     </Navbar>
