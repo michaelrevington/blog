@@ -1,6 +1,7 @@
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 import { HeadProvider, Link } from "react-head";
+import "./root.css";
 
 const App = () => {
   return (

@@ -1,18 +1,16 @@
-import { Col, Container, Row } from "reactstrap";
+import { Container } from "reactstrap";
 import NavbarComponent from "./Navbar/Navbar";
 import { Outlet } from "react-router-dom";
+import Footer from "./Footer/Footer";
 
 const Layout = () => {
   return (
     <>
       <NavbarComponent />
-      <Container>
-        <Row>
-          <Col>
-            <Outlet />
-          </Col>
-        </Row>
-      </Container>
+      <main className="container my-2 page">
+        <Outlet />
+      </main>
+      <Footer />
     </>
   );
 };

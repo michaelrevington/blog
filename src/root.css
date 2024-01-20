@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+:root {
+    --pg-color: #131313;
+}
+
+body {
+    color: white !important;
+    background-color: var(--pg-color) !important;
+}
+
+main {
+    min-height: calc(100vh - 195px);
+}
+  
+footer {
+    background: linear-gradient(to top right, #696969,#5a5a5a, rgba(113, 131, 131, 0.133));
+    height: 90px;
+}
